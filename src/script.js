@@ -26,7 +26,7 @@ scene.add(axesHelper)
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
-const matcapTexture = textureLoader.load('/textures/matcaps/2.png')
+const matcapTexture = textureLoader.load('/textures/matcaps/3.png')
 const materialO = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
 
 /**
