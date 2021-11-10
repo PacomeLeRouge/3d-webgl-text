@@ -47,7 +47,7 @@ const materialO = new THREE.MeshMatcapMaterial({ matcap: matcapTexture })
     (font) =>
     {
         const textGeometry = new TextGeometry(
-            'Hello Three.js',
+            'Merci Laurent :)',
             {
                 font: font,
                 size: 0.5,
